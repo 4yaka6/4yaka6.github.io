@@ -1,7 +1,7 @@
 # Setup
-title: Not Pure Poole
+title: Yonghao Yang
 description: A simple, beautiful, and powerful Jekyll theme for blogs
-url: https://vszhub.github.io
+url: https://4yaka6.github.io
 avatar: /avatar.jpeg
 paginate: 5
 permalink: pretty
@@ -43,6 +43,9 @@ lang: en
 sass:
   sass_dir: _sass
   style: :compressed
+
+plugins:
+  - not-pure-poole
 
 # Options
 
