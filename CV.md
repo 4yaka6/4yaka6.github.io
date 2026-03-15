@@ -55,7 +55,6 @@ Cybersecurity Law, Basic of Cryptography
   ▪ A model trained by comparing a CNN and a pre-trained RNN, incorporating an attention mechanism, and tuning hyperparameters such as the learning rate to achieve 
   the highest F1 score. | *Completed (Dec 2024)*  
   ▪ Contribution:Core code implementation , model training and technical documentation writing.
-  [Link](https://xipingo.github.io/resource/papers/Opening Doors, Widening Gaps.pdf) 
 
 - **DDos attack Detection Based on Federated Learning**  
   *DDoS detection method based on federated learning and multilayer perceptron neural network*  
@@ -66,7 +65,7 @@ Cybersecurity Law, Basic of Cryptography
 - **A Fully Symmetric Image Encryptor**  
   *A mosaic-like encryption method.*  
   ▪ The encryptor can choose the key length and randomly generate a key, and the level of blurring in the encrypted image can be controlled by adjusting parameters. The encrypted image can bypass AI moderation while still allowing the human eye to recognize the original content. The decryptor only needs to provide the corresponding image and key in the program to recover the original image.  | *Completed (Nev 2025)*  
-  ▪ Contribution:ALL
+  ▪ Contribution:ALL [Link](https://github.com/4yaka6/CS_project/tree/main/Image%20Encryptor) 
 
 - **The Schulte Table Game.**  
   *A grid (default 10×10 but you can change) containing numbers arranged randomly (0–99) is displayed.The player must find and click the numbers in ascending order as quickly as possible*  
