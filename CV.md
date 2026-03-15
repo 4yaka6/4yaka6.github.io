@@ -21,8 +21,8 @@ Network Engineering, School of Cyber Security, Hangzhou Dianzi University
 
 ## Personal Interests and Hobbise
 - Language: English & Japanese
-- Game: FPS like CS2 and Valorant, ACG like Genshin impart and arknigts
-- Creation: Literary creation, Drawing (PS and Pencil sketching), and video editing(using PS and Jianying pro)
+- Game: FPS like CS2 and Valorant, ACG like Genshin Impart and Arknigts
+- Creation: Literary creation, Drawing (PS and Pencil sketching), and video editing(using PR , AE and Jianying pro)
 - Sports: Fitness, table tennis, and badminton
 
 ---
@@ -48,41 +48,42 @@ Cybersecurity Law, Basic of Cryptography
   
 ---
 
-## Project Experience
-
-- **Facial Emotion Recognition Based on Deep Learning**   
+## Project Experience  
+  
+  
+- **Facial Emotion Recognition Based on Deep Learning**     
   *A product with a graphical user interface that allows users to freely input facial images and obtain emotion classification results*   
   ▪ A model trained by comparing a CNN and a pre-trained RNN, incorporating an attention mechanism, and tuning hyperparameters such as the learning rate to achieve 
   the highest F1 score. | *Completed (Dec 2024)*  
-  ▪ Contribution:Core code implementation , model training and technical documentation writing.
+  ▪ Contribution:Core code implementation , model training and technical documentation writing.  [Link](https://github.com/4yaka6/CS_project/tree/main/Facial%20Emotion%20Recognition%20Based%20on%20Deep%20Learning)  
 
 - **DDos attack Detection Based on Federated Learning**  
   *DDoS detection method based on federated learning and multilayer perceptron neural network*  
   ▪ The system builds a federated learning framework using software-defined networking, through which models in the network are collaboratively trained while preserving data privacy. 
   Experimental results show that the proposed method achieves a precision of up to 99.65% for ACK-type attacks on the CICDDoS2019 dataset.  | *Completed (July 2024)*  
-  ▪ Contribution:Core code implementation , model training and technical documentation writing.
+  ▪ Contribution:Core code implementation , model training and technical documentation writing.  [Link](https://github.com/4yaka6/CS_project/tree/main/DDos%20attack%20Detection%20Based%20on%20Federated%20Learning)  
 
 - **A Fully Symmetric Image Encryptor**  
   *A mosaic-like encryption method.*  
   ▪ The encryptor can choose the key length and randomly generate a key, and the level of blurring in the encrypted image can be controlled by adjusting parameters. The encrypted image can bypass AI moderation while still allowing the human eye to recognize the original content. The decryptor only needs to provide the corresponding image and key in the program to recover the original image.  | *Completed (Nev 2025)*  
-  ▪ Contribution:ALL [Link](https://github.com/4yaka6/CS_project/tree/main/Image%20Encryptor) 
+  ▪ Contribution:ALL [Link](https://github.com/4yaka6/CS_project/tree/main/Image%20Encryptor)  
 
 - **The Schulte Table Game.**  
   *A grid (default 10×10 but you can change) containing numbers arranged randomly (0–99) is displayed.The player must find and click the numbers in ascending order as quickly as possible*  
   ▪ The game is often used to improve concentration, peripheral vision, and visual search speed. This project runs entirely locally, based on CSS and JavaScript, and tracks your scores, automatically generating a results table.  | *Completed (Aug 2025)*  
-  ▪ Contribution:ALL
+  ▪ Contribution:ALL  [Link](https://github.com/4yaka6/CS_project/tree/main/The%20Schulte%20Table%20Game)  
   
-- **A Concurrent Server File Transfer System Based on the asyncio Library**  
+- **A Concurrent Server File Transfer System Based on the Asyncio Package**  
   *Course Project for Network Programming*  
   ▪ Design a file download service protocol using the TCP protocol, where the client sends the path of the file to be downloaded to the server, 
   the server sends the corresponding file content to the client, and the client stores the file on the local disk. | *Completed (Dec 2024)*  
-  ▪ Contribution: ALL
+  ▪ Contribution: ALL  [Link](https://github.com/4yaka6/CS_project/tree/main/File%20Transfer)  
 
 - **Wireshark-like Network Protocol Analyzer**  
   *Course Project for Protocol Analysis*  
   ▪ A simple Wireshark-like network protocol analyzer implemented in Python that supports layer-by-layer parsing of header fields for protocols 
   such as HTTP, TCP, UDP, IP, and Ethernet.| *Completed (Nev 2024)*  
-  ▪ Contribution: ALL
+  ▪ Contribution: ALL  [Link](https://github.com/4yaka6/CS_project/tree/main/Wireshark-like%20Network%20Protocol%20Analyzer)  
 
 ---
 
