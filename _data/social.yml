@@ -1,9 +1,9 @@
 - title: Email
-  url: mailto://vszhub@gmail.com
+  url: mailto:ayakakinomiya@gmail.com
   icon: fas fa-envelope
-- title: Twitter
-  url: https://twitter.com/vszhub
-  icon: fab fa-twitter
+- title: Bilibili
+  url: https://space.bilibili.com/439343296
+  icon: fab fa-bilibili
 - title: GitHub
-  url: https://github.com/vszhub/not-pure-poole
+  url: https://github.com/4yaka6
   icon: fab fa-github
