@@ -19,7 +19,7 @@ Network Engineering, School of Cyber Security, Hangzhou Dianzi University
 
 ---
 
-## Personal Interests and Hobbise
+## Personal Interests and Hobbies
 - Language: English & Japanese
 - Game: FPS like CS2 and Valorant, ACG like Genshin Impart and Arknigts
 - Creation: Literary creation, Drawing (PS and Pencil sketching), and video editing(using PR , AE and Jianying pro)
