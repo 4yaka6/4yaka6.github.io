@@ -52,3 +52,17 @@
     margin-left: var(--spacer);
   }
 }
+
+.post img {
+  display: block;
+  margin: 1.8rem auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.post p {
+  text-indent: 2em;
+  line-height: 1.8;
+}

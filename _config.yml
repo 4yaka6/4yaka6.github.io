@@ -44,3 +44,7 @@ author:
   name: Yonghao Yang
   url: https://github.com/4yaka6
   email: ayakakinomiya@gmail.com
+
+kramdown:
+  input: GFM
+  hard_wrap: true
