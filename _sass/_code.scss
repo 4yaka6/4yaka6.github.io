@@ -17,27 +17,44 @@ pre {
   margin-top: 0;
   margin-bottom: var(--spacer-3);
   overflow: auto;
+  white-space: pre;
+  word-break: normal;
+  overflow-wrap: normal;
 }
 
 .highlight {
+  display: block;
   padding: var(--spacer);
   margin-bottom: var(--spacer);
+  overflow-x: auto;
+  overflow-y: hidden;
   background-color: var(--code-bg);
   border-radius: var(--border-radius);
 
   pre {
     margin-bottom: 0;
+    overflow: visible;
   }
 
   // Triple backticks (code fencing) doubles the .highlight elements
   .highlight {
     padding: 0;
   }
+
+  > pre,
+  > pre > code {
+    display: block;
+    overflow: visible;
+  }
 }
 
 .rouge-table {
+  display: table;
   margin-bottom: 0;
   font-size: 100%;
+  width: max-content;
+  min-width: 100%;
+  table-layout: auto;
 
   &,
   td,
@@ -49,6 +66,18 @@ pre {
     vertical-align: top;
     user-select: none;
     opacity: .25;
+  }
+
+  .gutter,
+  .code {
+    white-space: pre;
+  }
+
+  .code pre,
+  .gutter pre {
+    white-space: pre;
+    word-break: normal;
+    overflow-wrap: normal;
   }
 }
 

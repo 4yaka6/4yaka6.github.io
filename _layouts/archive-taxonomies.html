@@ -18,7 +18,7 @@ layout: default
 {% comment %} Calculate the max count of taxonomies {% endcomment %}
 {%- assign max_count = 0 -%}
 {%- for taxonomy in taxonomies -%}
-  {%- assign posts = taxonomy[1] -%}
+  {%- assign posts = taxonomy[1] | where_exp: "post", "post.ifhide != true" | where_exp: "post", "post.hidden != true" -%}
   {%- if posts.size > max_count -%}
     {%- assign max_count = posts.size -%}
   {%- endif -%}
@@ -30,8 +30,8 @@ layout: default
       {%- for taxonomy in taxonomies -%}
         {%- assign taxonomy_name = taxonomy[0] -%}
         {%- assign slugified_taxonomy_name = taxonomy_name | slugify -%}
-        {%- assign posts = taxonomy[1] -%}
-        {%- if posts.size == i -%}
+        {%- assign posts = taxonomy[1] | where_exp: "post", "post.ifhide != true" | where_exp: "post", "post.hidden != true" -%}
+        {%- if posts.size == i and posts.size > 0 -%}
           <li>
             {%- capture link -%}{{ page.permalink }}#{{ slugified_taxonomy_name }}{%- endcapture -%}
             <a class="taxonomy" href="{{ link | relative_url }}">
@@ -56,8 +56,8 @@ layout: default
   {%- for taxonomy in taxonomies -%}
     {%- assign taxonomy_name = taxonomy[0] -%}
     {%- assign slugified_taxonomy_name = taxonomy_name | slugify -%}
-    {%- assign posts = taxonomy[1] -%}
-    {%- if posts.size == i -%}
+    {%- assign posts = taxonomy[1] | where_exp: "post", "post.ifhide != true" | where_exp: "post", "post.hidden != true" -%}
+    {%- if posts.size == i and posts.size > 0 -%}
       <h2 id="{{ slugified_taxonomy_name }}">
         {%- if page.type == 'tags' -%}
           {{ slugified_taxonomy_name }}
