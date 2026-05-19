@@ -52,9 +52,7 @@ Cybersecurity Law, Basic of Cryptography
   
 - **Emotion-driven Music Recommend System based on Mutimodal Fusion Deep Learning**     
   *A graphical user interface–based system that enables users to freely input textual and facial image data to obtain emotion recognition and personalized music recommendation results.*   
-  ▪ Alignment was performed on the multimodal emotion recognition datasets IEMOCAP and MELD. Acoustic features including MFCC, GTF, and Chroma were extracted from the DEAM dataset. 
-  The first two datasets were used to train a RoBERTa-based model using differential learning rates for the backbone and classification head. The three acoustic features were then fused 
-  to train a hybrid neural network composed of CNN, LSTM, and BiLSTM modules. The trained model weights were subsequently deployed into a functional application system. | *Completed (May 2026)*  
+  ▪ Alignment was performed on the multimodal emotion recognition datasets IEMOCAP and MELD. Acoustic features including MFCC, GTF, and Chroma were extracted from the DEAM dataset. The first two datasets were used to train a RoBERTa-based model using differential learning rates for the backbone and classification head. The three acoustic features were then fused to train a hybrid neural network composed of CNN, LSTM, and BiLSTM modules. The trained model weights were subsequently deployed into a functional application system. | *Completed (May 2026)*  
   ▪Tech Stack: CNN, BiLSTM, Transformer, residual fusion, PyTorch, multimodal fusion.
   ▪ Contribution:Code implementation , data processing, model training and technical documentation writing.  
   ▪The complete code repository and technical documentation are available at:[Link](https://github.com/4yaka6/Graduation_design)  
